@@ -13,7 +13,7 @@ This repository contains my personal notes, resources and homeworks from Advance
 
 ## Syllabus
 
- - Opinion mining, sentiment analysis 
+ - [Opinion mining, sentiment analysis](https://github.com/katarinagresova/ia161/tree/main/Opinion_mining_Sentiment_analysis) 
  - Language modelling
  - Stylometry
  - Named Entity Recognition
