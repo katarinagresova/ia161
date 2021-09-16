@@ -1,2 +1,27 @@
-# ia161
-Notes, resources and homeworks from Advanced NLP course
+# Advanced NLP course
+
+> Notes, resources and homeworks from Advanced NLP course.
+
+This repository contains my personal notes, resources and homeworks from Advanced NLP course (FI:IA161) taught at the Faculty of Informatics, Masaryk University during fall semester 2021/2022. Official materials can be found on course [website](https://nlp.fi.muni.cz/en/AdvancedNlpCourse).
+
+## Learning outcomes
+
+ - explain a selected NLP problem and list its main aspects;
+ - implement a basic or intermediate application for complex tasks in language processing, typically for Czech, Slovak, or English;
+ - create data resources (models, test sets) for a selected NLP problem and evaluate their assets;
+ - compare selected available tools for complex NLP tasks and apply them to chosen data resources with possible adaptations to particular purposes.
+
+## Syllabus
+
+ - Opinion mining, sentiment analysis 
+ - Language modelling
+ - Stylometry
+ - Named Entity Recognition
+ - Indexing and Searching Very Large Texts
+ - Topic identification, topic modelling
+ - Building Language Resources from the Web
+ - Parsing of Czech: Between Rules and Stats
+ - Machine translation
+ - Automatic relation extraction
+ - Extracting structured information from text
+ - Anaphora resolution
