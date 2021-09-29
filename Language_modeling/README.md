@@ -4,6 +4,6 @@ The goal of a language model is to assign a score to any possible input sentence
 The current state of the art models are build on neural networks using transformers.
 
 [Lecture notes](https://github.com/katarinagresova/ia161/blob/main/Language_modeling/notes.md)  
-[Practical session](https://github.com/katarinagresova/ia161/blob/main/IA161_Language_modeling.ipynb)
+[Practical session](https://github.com/katarinagresova/ia161/blob/main/Language_modeling/IA161_Language_modeling.ipynb)
 
 Official course materials can be found [here](https://nlp.fi.muni.cz/en/AdvancedNlpCourse/LanguageModelling).
