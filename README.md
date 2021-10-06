@@ -16,7 +16,7 @@ This repository contains my personal notes, resources and homeworks from Advance
  - [Opinion mining, sentiment analysis](https://github.com/katarinagresova/ia161/tree/main/Opinion_mining_Sentiment_analysis) 
  - [Language modelling](https://github.com/katarinagresova/ia161/tree/main/Language_modeling)
  - [Stylometry](https://github.com/katarinagresova/ia161/tree/main/Stylometry)
- - Named Entity Recognition
+ - [Named Entity Recognition](https://github.com/katarinagresova/ia161/tree/main/Named_Entity_Recognition)
  - Indexing and Searching Very Large Texts
  - Topic identification, topic modelling
  - Building Language Resources from the Web
