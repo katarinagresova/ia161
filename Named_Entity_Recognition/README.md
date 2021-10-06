@@ -5,6 +5,6 @@ NER aims to recognize and classify names of people, locations, organizations, pr
 Named entity recognition (NER) is used mainly in information extraction (IE) but it can significantly improve other NLP tasks such as syntactic parsing.
 
 [Lecture notes](https://github.com/katarinagresova/ia161/blob/main/Named_Entity_Recognition/notes.md)  
-Practical session (TBA)
+[Practical session](https://github.com/katarinagresova/ia161/blob/main/Named_Entity_Recognition/IA161_Named_Entity_Recognition.ipynb)
 
 Official course materials can be found [here](https://nlp.fi.muni.cz/en/AdvancedNlpCourse/NamedEntityRecognition).
