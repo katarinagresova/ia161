@@ -17,7 +17,7 @@ This repository contains my personal notes, resources and homeworks from Advance
  - [Language modelling](https://github.com/katarinagresova/ia161/tree/main/Language_modeling)
  - [Stylometry](https://github.com/katarinagresova/ia161/tree/main/Stylometry)
  - [Named Entity Recognition](https://github.com/katarinagresova/ia161/tree/main/Named_Entity_Recognition)
- - Indexing and Searching Very Large Texts
+ - [Indexing and Searching Very Large Texts](https://github.com/katarinagresova/ia161/tree/main/Corpus_Indexing)
  - Topic identification, topic modelling
  - Building Language Resources from the Web
  - Parsing of Czech: Between Rules and Stats
