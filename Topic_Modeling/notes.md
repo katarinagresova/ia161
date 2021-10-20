@@ -1,6 +1,7 @@
-Topic modeling is about discovering unknown topical patterns in documents
+> Topic modeling is about discovering unknown topical patterns in documents
 
-## Applications;
+## Applications
+
 - Recomenders systems
     - like Netflix, Amazon
     - we cluster users, we cluster products and then we match them to each other
@@ -39,13 +40,16 @@ Topic modeling is about discovering unknown topical patterns in documents
 - we are expecting that each document is generated be selected words from topics
 - each document is a mix of topics
 - LDA tries to discover these topics and their ratio
-- Applications:
-  - topic relations
-  - content recommendation
-  - group.community overlapping
-  - document topic changes
-  - genetics (ancestral population)
-- process
+- 
+#### Applications:
+- topic relations
+- content recommendation
+- group.community overlapping
+- document topic changes
+- genetics (ancestral population)
+
+#### Process
+
   - pick fixed number of topics
   - for each document, rendomly assign topic to each word
   - itereatively improve until steady statte
