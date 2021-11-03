@@ -4,6 +4,11 @@ author: Katarina Gresova
 email: 514001@mail.muni.cz
 
 Implemented algorithm: TF-IDF
+    - small improvement over bag-of-words algorithm
+    - giving bigger weight to more rare words
+
+Usage:
+    python3 detector.py <path_to_vert_file>
 """
 
 import pandas as pd
@@ -11,10 +16,11 @@ import numpy as np
 from scipy import spatial
 from pathlib import Path
 import re
+import sys
 
 class PlagiarismDetector:
 
-    RESOURCES_DIR_PATH = (Path(__file__).parents[0] / '..'  / 'resources').resolve()
+    RESOURCES_DIR_PATH = (Path(__file__).parents[0] / 'resources').resolve()
 
     def __init__(self):
         self.metadata = None
@@ -98,6 +104,9 @@ class PlagiarismDetector:
 
     def length_removal(self, min_length):
 
+        if min_length < 1:
+            raise ValueError('Minimal length must be > 0.')
+
         for id_, doc in self.docs.items():
             self.docs[id_] = doc[doc['word'].map(len) >= min_length]
 
@@ -149,13 +158,14 @@ class PlagiarismDetector:
 
         for _, doc in self.bag_of_words_docs.items():
             for column in ['word', 'lemma', 'tag']:
-                self.doc_counts_per_word[column] = {}
-                for word in doc[column]:
+                # initialize in first loop, keep the same in the rest
+                self.doc_counts_per_word[column] = self.doc_counts_per_word.get(column, {})
+                for word in doc[column].keys():
                     self.doc_counts_per_word[column][word] = self.doc_counts_per_word[column].get(word, 0) + 1
 
     def _idf(self, word, column):
 
-        num_of_docs = len(self.docs)
+        num_of_docs = len(self.docs) + 1
 
         try:
             word_occurance = self.doc_counts_per_word[column][word] + 1
@@ -236,7 +246,6 @@ class PlagiarismDetector:
                                 stats['fn'] += 1
 
                         print('%s\t%s\t%s\n' % (doc['id'], most_similar_doc_id, doc['source_id']))
-
                 precision, recall, f1_measure = self._compute_stats(stats)
                 print(
                     'Overall precision: %.2f, recall: %.2f, F1: %.2f \nfor method %s and column %s\n' % (
@@ -248,8 +257,11 @@ class PlagiarismDetector:
         self.doc_similarity_threshold = threshold
 
 if __name__ == "__main__":
+
+    vert_path = sys.argv[1]
+
     detector = PlagiarismDetector()
-    detector.parse_input('training_data.vert')
+    detector.parse_input(vert_path)
     detector.length_removal(3)
     detector.set_doc_similarity_threshold(0.5)
     detector.evaluate()
