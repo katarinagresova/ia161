@@ -20,7 +20,7 @@ This repository contains my personal notes, resources and homeworks from Advance
  - [Indexing and Searching Very Large Texts](https://github.com/katarinagresova/ia161/tree/main/Corpus_Indexing)
  - [Topic identification, topic modelling](https://github.com/katarinagresova/ia161/tree/main/Topic_Modeling)
  - [Building Language Resources from the Web](https://github.com/katarinagresova/ia161/tree/main/Language_Resources_From_Web)
- - Parsing of Czech: Between Rules and Stats
+ - [Parsing of Czech: Between Rules and Stats](https://github.com/katarinagresova/ia161/tree/main/Parsing_Czech)
  - Machine translation
  - Automatic relation extraction
  - Extracting structured information from text
