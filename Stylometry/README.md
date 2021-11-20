@@ -7,6 +7,5 @@ The most common approach to stylometry problems is to combine stylistic analysis
  - a classification procedure is applied to extracted markers
 
 [Lecture notes](https://github.com/katarinagresova/ia161/blob/main/Stylometry/notes.md)  
-Practical session (TBA)
 
 Official course materials can be found [here](https://nlp.fi.muni.cz/en/AdvancedNlpCourse/Stylometry).
