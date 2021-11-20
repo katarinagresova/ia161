@@ -13,15 +13,15 @@ This repository contains my personal notes, resources and homeworks from Advance
 
 ## Syllabus
 
- - [Opinion mining, sentiment analysis](https://github.com/katarinagresova/ia161/tree/main/Opinion_mining_Sentiment_analysis) 
- - [Language modelling](https://github.com/katarinagresova/ia161/tree/main/Language_modeling)
- - [Stylometry](https://github.com/katarinagresova/ia161/tree/main/Stylometry)
- - [Named Entity Recognition](https://github.com/katarinagresova/ia161/tree/main/Named_Entity_Recognition)
- - [Indexing and Searching Very Large Texts](https://github.com/katarinagresova/ia161/tree/main/Corpus_Indexing)
- - [Topic identification, topic modelling](https://github.com/katarinagresova/ia161/tree/main/Topic_Modeling)
- - [Building Language Resources from the Web](https://github.com/katarinagresova/ia161/tree/main/Language_Resources_From_Web)
- - [Parsing of Czech: Between Rules and Stats](https://github.com/katarinagresova/ia161/tree/main/Parsing_Czech)
- - [Machine translation](https://github.com/katarinagresova/ia161/tree/main/Machine_Translation)
+ - [Opinion mining, sentiment analysis](Opinion_mining_Sentiment_analysis) 
+ - [Language modelling](Language_modeling)
+ - [Stylometry](Stylometry)
+ - [Named Entity Recognition](Named_Entity_Recognition)
+ - [Indexing and Searching Very Large Texts](Corpus_Indexing)
+ - [Topic identification, topic modelling](Topic_Modeling)
+ - [Building Language Resources from the Web](Language_Resources_From_Web)
+ - [Parsing of Czech: Between Rules and Stats](Parsing_Czech)
+ - [Machine translation](Machine_Translation)
  - Automatic relation extraction
  - Extracting structured information from text
  - Anaphora resolution
