@@ -15,7 +15,7 @@ This repository contains my personal notes, resources and homeworks from Advance
 
 |     Topic     |         | |
 | ------------- |:-------------:|:----------------:|
-| [Opinion mining, sentiment analysis](Opinion_mining_Sentiment_analysis) | [notes](Opinion_mining_Sentiment_analysis/notes.md) | - |
+| [Opinion mining, sentiment analysis](Opinion_mining_Sentiment_analysis) | [notes](Opinion_mining_Sentiment_analysis/notes.md) | [practical session](Opinion_mining_Sentiment_analysis/IA161_Sentiment_analysis.ipynb) |
 | [Language modelling](Language_modeling)                                 | [notes](Language_modeling/notes.md)                 | [practical session](Language_modeling/IA161_Language_modeling.ipynb)|
 | [Stylometry](Stylometry)                                                | [notes](Stylometry/notes.md)                        | - |       
 | [Named Entity Recognition](Named_Entity_Recognition)                    | [notes](Named_Entity_Recognition/notes.md)          |[practical session](Named_Entity_Recognition/IA161_Named_Entity_Recognition.ipynb) |
