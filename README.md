@@ -13,15 +13,17 @@ This repository contains my personal notes, resources and homeworks from Advance
 
 ## Syllabus
 
- - [Opinion mining, sentiment analysis](Opinion_mining_Sentiment_analysis) 
- - [Language modelling](Language_modeling)
- - [Stylometry](Stylometry)
- - [Named Entity Recognition](Named_Entity_Recognition)
- - [Indexing and Searching Very Large Texts](Corpus_Indexing)
- - [Topic identification, topic modelling](Topic_Modeling)
- - [Building Language Resources from the Web](Language_Resources_From_Web)
- - [Parsing of Czech: Between Rules and Stats](Parsing_Czech)
- - [Machine translation](Machine_Translation)
- - Automatic relation extraction
- - Extracting structured information from text
- - Anaphora resolution
+|     Topic     |         | |
+| ------------- |:-------------:|:----------------:|
+| [Opinion mining, sentiment analysis](Opinion_mining_Sentiment_analysis) | [notes](Opinion_mining_Sentiment_analysis/notes.md) | - |
+| [Language modelling](Language_modeling)                                 | [notes](Language_modeling/notes.md)                 | [practical session](Language_modeling/IA161_Language_modeling.ipynb)|
+| [Stylometry](Stylometry)                                                | [notes](Stylometry/notes.md)                        | - |       
+| [Named Entity Recognition](Named_Entity_Recognition)                    | [notes](Named_Entity_Recognition/notes.md)          |[practical session](Named_Entity_Recognition/IA161_Named_Entity_Recognition.ipynb) |
+| [Indexing and Searching Very Large Texts](Corpus_Indexing)              | [notes](Corpus_Indexing/notes.md)                   | - |
+| [Topic identification, topic modelling](Topic_Modeling)                 | [notes](Topic_Modeling/notes.md)                    | - |
+| [Building Language Resources from the Web](Language_Resources_From_Web) | [notes](Language_Resources_From_Web/notes.md)       | [practical session](https://github.com/katarinagresova/ia161/tree/main/Language_Resources_From_Web#practical-session) |
+| [Parsing of Czech: Between Rules and Stats](Parsing_Czech)              | [notes](Parsing_Czech/notes.md)                     | - |
+| [Machine translation](Machine_Translation)                              | [notes](Machine_Translation/notes.md)               | [practical session](Machine_Translation/IA161_Machine_Translation.ipynb) |
+| Automatic relation extraction | | |
+| Extracting structured information from text | | |
+| Anaphora resolution | | |
