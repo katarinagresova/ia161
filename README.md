@@ -24,6 +24,6 @@ This repository contains my personal notes, resources and homeworks from Advance
 | [Building Language Resources from the Web](Language_Resources_From_Web) | [notes](Language_Resources_From_Web/notes.md)       | [practical session](https://github.com/katarinagresova/ia161/tree/main/Language_Resources_From_Web#practical-session) |
 | [Parsing of Czech: Between Rules and Stats](Parsing_Czech)              | [notes](Parsing_Czech/notes.md)                     | - |
 | [Machine translation](Machine_Translation)                              | [notes](Machine_Translation/notes.md)               | [practical session](Machine_Translation/IA161_Machine_Translation.ipynb) |
-| [Automatic relation extraction](Relation_Extraction) | | |
+| [Automatic relation extraction](Relation_Extraction)                    | [notes](Relation_Extraction/notes.md)               | |
 | Extracting structured information from text | | |
 | Anaphora resolution | | |
