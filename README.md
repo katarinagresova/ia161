@@ -25,5 +25,5 @@ This repository contains my personal notes, resources and homeworks from Advance
 | [Parsing of Czech: Between Rules and Stats](Parsing_Czech)              | [notes](Parsing_Czech/notes.md)                     | - |
 | [Machine translation](Machine_Translation)                              | [notes](Machine_Translation/notes.md)               | [practical session](Machine_Translation/IA161_Machine_Translation.ipynb) |
 | [Automatic relation extraction](Relation_Extraction)                    | [notes](Relation_Extraction/notes.md)               | [practical session](Relation_Extraction/IA161_Relation_Extraction.ipynb) |
-| [Extracting structured information from text](Information_Extraction) | | |
+| [Extracting structured information from text](Information_Extraction)   | [notes](Information_Extraction/notes.md)            | - |
 | Anaphora resolution | | |
